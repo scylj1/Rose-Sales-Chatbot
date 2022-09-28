@@ -1,0 +1,124 @@
+{"intents": [
+        {"tag": "hi",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day", "good morning", "good afternoon", "good evening", "greeting", "Hi", "Nice to meet you", "It is a pleasure to meet you"],
+         "responses": ["Hello, thanks for asking", "Good to see you!", "Hi there, how can I help?"],
+         "context": [""]
+        },
+		{"tag": "greeting",
+         "patterns": ["How are you", "How is it going", "How is everything going", "How are you doing", "How do you do", "What's up"],
+         "responses": ["I'm Fine, thanks.", "Fine, and you?", "I'm doing well, thank you"],
+         "context": [""]
+        },
+		{"tag": "positive",
+         "patterns": ["I'm good", "I'm Fine, thanks.", "Fine", "I'm doing well", "Yes", "Sure", "Of coures","Good", "Nice", "OK", "It's nice", "That's good"],
+         "responses": ["That's good to hear", "Good", "Nice"],
+         "context": [""]
+        },
+		{"tag": "negative",
+         "patterns": ["I'm not good", "bad", "not much"],
+         "responses": ["That's bad", "I am sorry", "Try to be happy"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "My pleasure"],
+         "context": [""]
+        },
+        
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "Tell me something", "How can you help me", "I have a question", "what can i do"],
+         "responses": ["I can guide you through roses transactions and answer your questions", "Offering support for rose transactions and question answering"],
+         "context": [""]
+        },
+		
+		{"tag": "transaction",
+         "patterns": ["I want to buy roses", "want some roses", "I want to order roses", "order", "transaction", "I want to make an order", "begin transaction", "buy roses", "make orders"],
+         "responses": ["Navigating to transaction mode"],
+         "context": [""]
+        },
+		
+
+        {"tag": "quality",
+            "patterns": ["How is the quality", "How about the quality", "is the roses fresh", "will it be broken when it is delivered", "is it real rose or fake rose", "are you recommend to buy"],
+            "responses": ["Quality is good"],
+            "context": [""]
+        },
+
+        {"tag": "size",
+            "patterns": ["how large is a rose", "what is the size of a rose"],
+            "responses": ["The diameter is about 1 inch and it is about 12 inch long"],
+            "context": [""]
+        },
+
+        {"tag": "deliver_time",
+            "patterns": ["when will the roses be delivered", "when can i get the roses", "is the delivering fast", "can i get the roses on time if it is holiday", "is the delivering punctual"],
+            "responses": ["It will usually be dilivered within 2 hours"],
+            "context": [""]
+        },
+
+        {"tag": "keep",
+            "patterns": ["how to keep the roses fresh", "how long can i keep it fresh"],
+            "responses": ["Keep it in the water and it can be fresh for about a week"],
+            "context": [""]
+        },
+
+        {"tag": "suggest",
+            "patterns": ["do you have some suggestion for me","how many roses do you recommend me to buy"],
+            "responses": ["Most customers choose to buy 33 roses"],
+            "context": [""]
+        },
+
+        {"tag": "deliver_place",
+            "patterns": ["Where can it delivered to", "can it be delivered outside UK", "Can it be delivered to Nottingham", "does it have a delivery area limitation"],
+            "responses": ["We can only deliver the roses in Nottingham for now"],
+            "context": [""]
+        },
+
+        {"tag": "price",
+            "patterns": ["How much is the rose", "How much are the roses"],
+            "responses": ["1 pound per rose"],
+            "context": [""]
+        },
+
+        {"tag": "delivery_fee",
+            "patterns": ["Do i need to pay for the delivery fee", "is the delivery fee included in the price"],
+            "responses": ["There is no need for extra delivery fee"],
+            "context": [""]
+        },
+
+        {"tag": "smell",
+            "patterns": ["How does it smell", "does it smell good", "does it have fragrance"],
+            "responses": ["It has light fragrance"],
+            "context": [""]
+        },
+
+        {"tag": "buy",
+            "patterns": ["how to buy", "how can i make a transaction", "how to order", "how to make the order"],
+            "responses": ["Just tell me you want to make a transaction"],
+            "context": [""]
+        },
+
+        {"tag": "book",
+            "patterns": ["can i make a reservation", "can i book a time for delivery"],
+            "responses": ["yes, you can pick a time for delivery"],
+            "context": [""]
+        },
+
+        {"tag": "color",
+            "patterns": ["what colors do you have", "what colors do you provide"],
+            "responses": ["We only provide red roses"],
+            "context": [""]
+        },
+
+        {"tag": "return",
+            "patterns": ["can i return the products if i do not need it", "can i return the roses", "can i ask for a refund"],
+            "responses": ["If the roses have been dispatched then refund is not accepted"],
+            "context": [""]
+        }
+   ]
+}
